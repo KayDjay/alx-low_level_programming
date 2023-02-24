@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- *time_table - print 9 times table
- *
+ * times_table - Prints the 9 times table, starting with 0
  * Return: 0
  */
 
@@ -28,7 +27,7 @@ void times_table(void)
 			}
 			else if (k >= 10)
 			{
-				_putchar('.');
+				_putchar(',');
 				_putchar(' ');
 				_putchar((k / 10) + '0');
 				_putchar((k % 10) + '0');
