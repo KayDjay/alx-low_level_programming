@@ -3,7 +3,7 @@
 /**
  * print_numbers - a function that prints number
  *
- * Return: 0
+ * Return: none is success
  */
 
 void print_numbers(void)
@@ -12,7 +12,7 @@ void print_numbers(void)
 
 	for (ch = 48; ch < 58; ch++)
 	{
-		_putchar(ch);
+	_putchar(ch);
 	}
 	_putchar('\n');
 }
