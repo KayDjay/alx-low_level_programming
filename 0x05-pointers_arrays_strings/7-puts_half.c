@@ -3,7 +3,8 @@
 /**
  * puts_half - Prints of a string
  * @str: input
- * if odd len, n = (length_of_string - 1) / 2
+ * @n: number
+ * len - [(length_of_the_string - 1) / 2]
  * Return: 0
  */
 
@@ -11,9 +12,8 @@ void puts_half(char *str)
 {
 	int a, n, len;
 	len = 0;
-	for (a = 0; str[a] != '\0'; a++)
+	for (a = 0 ; str[a] != '\0' ; a++)
 		len++;
-
 	n = (len / 2);
 
 	if ((len % 2) == 1)
