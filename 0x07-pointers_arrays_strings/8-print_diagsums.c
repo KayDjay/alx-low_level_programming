@@ -3,7 +3,7 @@
 
 /**
  * print_diagsums - prints of two diagonals
- * @a: pointer
+ * @a: input
  * @size: input
  * Return: 0
  */
