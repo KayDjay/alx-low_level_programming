@@ -4,7 +4,7 @@
 
 /**
  * main - Entry Point
- * @atoi: function that converts a string into an int
+ * atoi is a function that converts a string into an int
  *
  * @argc: arguments
  * @argv: array pointing to arguments
