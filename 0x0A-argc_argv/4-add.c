@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+#include <ctype.h>
 /**
- * main - Entry Point
+ * main - add positive numbers
  *
  * @argc: arguments
  * @argv: array pointing to arguments
