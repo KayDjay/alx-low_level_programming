@@ -2,8 +2,8 @@
 #define MAIN_H
 
 int _putchar(char c);
-
-int atoi(char *s);
-
+int main(int argc, char *argv[]);
+int main(int argc, __attribute__((unused)) char *argv[]);
+int change(int cents);
 
 #endif
