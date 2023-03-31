@@ -25,7 +25,7 @@ int main(void)
 	add_node_end(&head, "Ian");
 	add_node_end(&head, "Jay");
 	add_node_end(&head, "Jennie");
-	dd_node_end(&head, "Jimmy");
+	add_node_end(&head, "Jimmy");
 	add_node_end(&head, "Justin");
 	add_node_end(&head, "Kalson");
 	add_node_end(&head, "Kina");
