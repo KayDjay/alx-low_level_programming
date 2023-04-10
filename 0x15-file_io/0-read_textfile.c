@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * read_textfile - A function that read a text
@@ -7,7 +7,7 @@ include "main.h"
  * @letters: content of text in the file
  *
  * Return: numbers of letter and print
- * (0) if no file, not open, not write
+ * (0) if no file, not open,or  not write
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
@@ -23,10 +23,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	o = open(filename, O_RDONLY);
-	r = read(op, buffer, letters);
-	w = write(STDOUT_FILENO, buffer, re);
+	r = read(o, buffer, letters);
+	w = write(STDOUT_FILENO, buffer, r);
 
-	if (o == -1 || r == -1 || w == -1 || wri != r)
+	if (o == -1 || r == -1 || w == -1 || w != r)
 	{
 	free(buffer);
 	return (0);
@@ -36,3 +36,4 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	close(o);
 
 	return (w);
+}
