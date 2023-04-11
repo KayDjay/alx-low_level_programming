@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * clear_bit - A function that clears bit to 0
+ * clear_bit - A function that clears bit to zero
  *
  * @n: number of bit
  * @index: index of bit
@@ -16,7 +16,7 @@ int clear_bit(unsigned long int *n, unsigned int index)
 	if (index > 63)
 		return (-1);
 
-	i = 1 << index;
+	a = 1 << index;
 
 	if (*n & a)
 		*n ^= a;
