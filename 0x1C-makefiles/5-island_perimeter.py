@@ -2,6 +2,7 @@
 
 """ Island Perimeter module """
 
+
 def island_perimeter(grid):
     """ This function describe perimeter of island """
     count = 0
